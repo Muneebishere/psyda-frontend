@@ -1,0 +1,25 @@
+@import 'paper-dashboard/variables';
+
+.landing {
+
+  &.bg {
+    background-color: $black-color;
+  }
+
+  .content {
+    padding-top: 10%;
+
+    .title {
+      margin-top: 10px;
+      color: $light-gray;
+    }
+
+    p {
+      color: $light-gray;
+    }
+  }
+
+}
+
+
+
