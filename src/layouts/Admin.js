@@ -67,10 +67,6 @@ class Dashboard extends React.Component {
                 />
               );
             })}
-            <Route
-              path="/admin/user-page"
-              component={UserPage}
-            />
           </Switch>
           <Footer fluid />
         </div>

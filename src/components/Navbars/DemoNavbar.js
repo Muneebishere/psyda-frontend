@@ -65,9 +65,7 @@ class Header extends React.Component {
       if (window.location.href.indexOf(prop.layout + prop.path) !== -1) {
         brandName = prop.name;
       }
-      if (window.location.href.indexOf("/admin/user-page") !== -1) {
-        brandName = "User Profile";
-      }
+
       return null;
     });
     return brandName;
