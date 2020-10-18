@@ -37,7 +37,7 @@ class Sidebar extends React.Component {
         data-color={this.props.bgColor}
         data-active-color={this.props.activeColor}
       >
-        <div className="logo">
+        <div className="logo pl-2">
           <a
             href="/admin/dashboard"
             className="simple-text logo-mini"
@@ -66,7 +66,7 @@ class Sidebar extends React.Component {
                 >
                   <NavLink
                     to={prop.layout + prop.path}
-                    className="nav-link"
+                    className="nav-link pl-0"
                     activeClassName="active"
                   >
                     <i className={prop.icon} />

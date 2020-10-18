@@ -264,10 +264,12 @@
         @include transform-translate-x(-260px);
     }
 
-
-
     .main-panel{
       width: 100%;
+
+      .openbtn {
+        display: none;
+      }
     }
 
     .timeline{
@@ -547,4 +549,19 @@
         padding: 15px;
       }
     }
+}
+
+@media screen and (min-width: 991px){
+
+  .nav-open{
+    .main-panel{
+        width: calc(100% - 60px);
+        @include transform-translate-x(0px);
+    }
+
+    body{
+        position: relative;
+        overflow-x: hidden;
+    }
+  }
 }

@@ -124,19 +124,19 @@ class FixedPlugin extends Component {
             </li>
             <li className="button-container">
               <Button
-                href="https://www.creative-tim.com/product/paper-dashboard-react/#/documentation/tutorial?ref=pdr-fixed-plugin"
+                href={"mailto:" + "contact@psyda.co"}
                 color="default"
                 block
                 className="btn-round"
                 outline
               >
-                <i className="nc-icon nc-paper" /> Sherlock Guide
+                <i className="nc-icon nc-paper" /> Contact Us
               </Button>
             </li>
             <li className="header-title">Visit Our Website</li>
             <li className="button-container">
               <Button
-                href="https://www.creative-tim.com/product/paper-dashboard-pro-react?ref=pdr-fixed-plugin"
+                href="https://psyda.co"
                 color="danger"
                 block
                 className="btn-round"

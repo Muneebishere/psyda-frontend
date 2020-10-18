@@ -130,6 +130,7 @@ class Header extends React.Component {
                 <span className="navbar-toggler-bar bar3" />
               </button>
             </div>
+            <button className="openbtn" onClick={() => this.openSidebar()}>☰</button>  
             <NavbarBrand href="#">{this.getBrand()}</NavbarBrand>
           </div>
           <NavbarToggler onClick={this.toggle}>

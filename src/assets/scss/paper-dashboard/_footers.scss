@@ -36,6 +36,11 @@
     .copyright{
         font-size: $font-size-small;
         line-height: 1.8;
+
+        .footer-link{
+            text-decoration: none;
+            color: black;
+        }
     }
 
     &:after{
